@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
             <img src={assets.logo} className='mb-5 w-32' alt="" />
             <p className='w-full md:w-2/3 text-gray-600'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            terxo is one of India's leading e-commerce platforms, offering a wide range of products across categories like electronics, fashion, home appliances, beauty, books, and more. With a user-friendly interface, terxo provides a seamless shopping experience, allowing customers to browse, compare, and purchase products with ease. The platform offers secure payment options, hassle-free returns, and fast delivery services, making it a trusted destination for millions of shoppers. Whether you're looking for the latest smartphones, trendy clothing, or home essentials, terxo ensures you find the best deals and discounts, all from the comfort of your home. Experience the convenience of online shopping with terxo today!
             </p>
         </div>
 

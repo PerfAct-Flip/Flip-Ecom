@@ -17,7 +17,7 @@ const LatestCollection = () => {
       <div className='text-center py-8 text-3xl'>
           <Title text1={'LATEST'} text2={'COLLECTIONS'} />
           <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.
+          Discover the latest collection of cutting-edge electronics at our online store, featuring the newest innovations in technology. From high-performance laptops, sleek smartphones, and ultra-responsive gaming consoles to advanced home appliances and wearable devices, we have everything you need to stay ahead of the curve. Our carefully curated selection includes top brands, offering superior quality and unmatched performance. Whether you're upgrading your tech setup, enhancing your home entertainment, or exploring smart gadgets, you'll find the perfect device to elevate your lifestyle. Shop now for exclusive deals and experience the future of electronics today!
           </p>
       </div>
 
