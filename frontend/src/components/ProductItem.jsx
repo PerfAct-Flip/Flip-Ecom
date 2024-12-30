@@ -1,20 +1,54 @@
-import React, { useContext } from 'react'
-import { ShopContext } from '../context/ShopContext'
-import {Link} from 'react-router-dom'
+/* eslint-disable react/prop-types */
+import "./Product.css";
 
-const ProductItem = ({id,image,name,price}) => {
-    
-    const {currency} = useContext(ShopContext);
-
+const ProductItem = ({
+  id,
+  name,
+  description,
+  price,
+  image,
+  category,
+  subCategory,
+  sizes,
+  bestseller,
+  date,
+  currency,
+}) => {
   return (
-    <Link onClick={()=>scrollTo(0,0)} className='text-gray-700 cursor-pointer' to={`/product/${id}`}>
-      <div className=' overflow-hidden'>
-        <img className='hover:scale-110 transition ease-in-out' src={image[0]} alt="" />
-      </div>
-      <p className='pt-3 pb-1 text-sm'>{name}</p>
-      <p className=' text-sm font-medium'>{currency}{price}</p>
-    </Link>
-  )
-}
+    <div className="card-container">
+      <a
+        href={`/product/${id}`}
+        onClick={() => scrollTo(0, 0)}
+        className="product-link"
+      >
+        <div className="product-image-container">
+          <img
+            className="product-image"
+            src={image[0]}
+            alt={name}
+          />
+        </div>
+        <div className="product-details">
+          <h2 className="product-name">{name}</h2>
+          <p className="product-description">{description}</p>
+          <p className="product-category">
+            {category} / {subCategory}
+          </p>
+          <p className="product-sizes">
+            Available Sizes: {sizes.join(", ")}
+          </p>
+          {bestseller && <p className="product-bestseller">Bestseller</p>}
+          <p className="product-price">
+            {currency}
+            {price}
+          </p>
+          <p className="product-date">
+            Added On: {new Date(date).toLocaleDateString()}
+          </p>
+        </div>
+      </a>
+    </div>
+  );
+};
 
-export default ProductItem
+export default ProductItem;

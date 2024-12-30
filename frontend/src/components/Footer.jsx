@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
             <img src={assets.logo} className='mb-5 w-32' alt="" />
             <p className='w-full md:w-2/3 text-gray-600'>
-            terxo is one of India's leading e-commerce platforms, offering a wide range of products across categories like electronics, fashion, home appliances, beauty, books, and more. With a user-friendly interface, terxo provides a seamless shopping experience, allowing customers to browse, compare, and purchase products with ease. The platform offers secure payment options, hassle-free returns, and fast delivery services, making it a trusted destination for millions of shoppers. Whether you're looking for the latest smartphones, trendy clothing, or home essentials, terxo ensures you find the best deals and discounts, all from the comfort of your home. Experience the convenience of online shopping with terxo today!
+            TrinityKart is one of India's leading e-commerce platforms, offering a wide range of products across categories like electronics, fashion, home appliances, beauty, books, and more. With a user-friendly interface, terxo provides a seamless shopping experience, allowing customers to browse, compare, and purchase products with ease. The platform offers secure payment options, hassle-free returns, and fast delivery services, making it a trusted destination for millions of shoppers. Whether you're looking for the latest smartphones, trendy clothing, or home essentials, terxo ensures you find the best deals and discounts, all from the comfort of your home. Experience the convenience of online shopping with terxo today!
             </p>
         </div>
 
@@ -26,8 +26,8 @@ const Footer = () => {
         <div>
             <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
             <ul className='flex flex-col gap-1 text-gray-600'>
-                <li>+1-212-456-7890</li>
-                <li>contact@foreveryou.com</li>
+                <li> (91) 8076043791 , 9910889494 , 7986200531 </li>
+                <li>trustabletrinitykart@gmail.com </li>
             </ul>
         </div>
 

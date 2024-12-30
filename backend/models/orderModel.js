@@ -1,6 +1,7 @@
 import mongoose from 'mongoose'
 
 const orderSchema = new mongoose.Schema({
+    status: { type: String, default: 'enabled' }, // Add status field with default value 'enabled'
     userId: { type: String, required: true },
     items: { type: Array, required: true },
     amount: { type: Number, required: true },

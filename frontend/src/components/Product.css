@@ -1,0 +1,81 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+.product-link {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.product-image-container {
+    overflow: hidden;
+    max-height: 150px; /* Set a maximum height for the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image {
+    width: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Prevent overflow */
+    max-height: 100%; /* Adjust image size */
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-image:hover {
+    transform: scale(1.1);
+}
+
+.product-details {
+    padding: 0.5rem 0;
+}
+
+.product-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+.product-category {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #4a4a4a;
+}
+
+.product-sizes {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.product-bestseller {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #d9534f; /* Highlight bestseller */
+}
+
+.product-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-date {
+    font-size: 0.8rem;
+    color: #777;
+}

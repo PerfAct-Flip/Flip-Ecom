@@ -21,7 +21,7 @@ const Navbar = () => {
       
       <Link to='/'>
         {/* <img src={assets.logo} className='w-36' alt="" /> */}
-        <p className='text-3xl'>Trexo</p>
+        <p className='text-3xl'>TrinityKart</p>
       </Link>
 
       <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>

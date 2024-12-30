@@ -10,8 +10,15 @@ const productSchema = new mongoose.Schema({
     sizes: { type: Array, required: true },
     bestseller: { type: Boolean },
     date: { type: Number, required: true }
-})
+});
 
-const productModel  = mongoose.models.product || mongoose.model("product",productSchema);
+const productModel = mongoose.models.product || mongoose.model("product", productSchema);
 
-export default productModel
+const products = [
+    
+    // Add more items similarly (8 more items).
+];
+
+// Example export for use in a seeder or mock database.
+export { products };
+export default productModel;
