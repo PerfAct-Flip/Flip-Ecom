@@ -16,7 +16,6 @@
 - **Frontend:** React.js, Redux, Axios, TailwindCSS
 - **Backend:** Node.js, Express.js, MongoDB, Mongoose
 
-#### Client Side
 
 
 
